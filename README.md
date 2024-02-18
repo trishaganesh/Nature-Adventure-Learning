@@ -22,7 +22,7 @@ Simply put, our cause is dedicated to acknowledging, recognizing, and believing 
 A challenge we ran into was the functionality portion of the contact form on our website. We eventually decided to use the Firebase Realtime Database where when the user inputs any contact information, the data is stored. 
 
 ### 2) Game
-It was interesting to build a game using only CSS and JS. The majority of the game heavily relied on JavaScript functionality and it was initially a challenge to place the elements in their designated spot and then find a way to allow the elements of the game to flip (hide) when the student types the tiles to view the actual element. 
+It was interesting to build a game using only CSS and JS. The majority of the game heavily relied on JavaScript functionality and it was initially a challenge to place the elements in their designated spot and then find a way to allow the elements of the game to flip (hide) when the student taps a tile to view an element. 
 
 
 
