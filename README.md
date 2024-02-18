@@ -1,4 +1,4 @@
-# Nature-Adventure-Learning
+# Nature Adventure Learning
 ![Untitled_Artwork](https://github.com/trishaganesh/Nature-Adventure-Learning/assets/43594876/6e13796d-5ebd-4d0e-9b45-1a12e0c434af)
 
 ## Project Category
