@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Nature Adventure Learning | Signup</title>
+  <meta charset="utf-8">
+
+  <style>
+    #submitMessage {
+    color: green;
+    font-weight: bold;
+    }
+  </style>
+  
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDSsRm8Vnl-dPSevwbBbpkiVkpaZ_klp34",
+      authDomain: "adventurelearningdatabase-default-rtdb.firebaseapp.com",
+      databaseURL: "https://adventurelearningdatabase-default-rtdb.firebaseio.com/", 
+      projectId: "adventurelearningdatabase",
+      storageBucket: "adventurelearningdatabase-default-rtdb.com",
+      messagingSenderId: "476591750869",
+      appId: "1:476591750869:web:7e7667c9ada062b7a32c5c"
+    };
+  </script>
+
+  
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+  <script>firebase.initializeApp(firebaseConfig);</script>
+
+  
+  <script>
+    function submitForm() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+
+      firebase.database().ref('Information').push({
+        name: name,
+        email: email,
+        message: message  
+      });
+      document.getElementById("submitMessage").innerHTML = " Your information was submitted successfully!";
+
+    }
+    
+  </script>
+
+  <style>
+    form{
+      margin:12px;
+    }
+  </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="images/logo.png" height="50px"><img></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="try-it-out.html">TRY IT OUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+  <main>
+
+    <div class="sendInfo">
+      <div class="image-row">
+        <form id="contactForm" method="post" enctype="text/plain" onsubmit="submitForm(); return false;">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+        
+          <label for="subject">Subject:</label>
+          <input type="subject" id="subject" name="subject"><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="10" cols="30"></textarea><br><br>
+
+          <input type="submit" value="Submit">
+        </form>
+
+      </div>
+    </div>
+    <div id="submitMessage"></div>
+
+  </main>
+
+</body>
+</html>
