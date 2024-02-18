@@ -1,0 +1,12 @@
+#about-main {
+    background:url('images/forest-sun-rays.gif') no-repeat center center;
+    min-height: 100vh;
+    width: 100 px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#main-text {
+    background-color: beige;
+}
