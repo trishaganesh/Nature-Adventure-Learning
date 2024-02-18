@@ -1,7 +1,8 @@
 # Nature Adventure Learning Web Application
-2 web pages 
-About </br>
-Contact Us </br>
+Two web pages </br>
+
+1) About </br>
+2) Contact Us </br>
 
 Main Web Page
 * Home
