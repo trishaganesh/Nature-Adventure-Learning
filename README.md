@@ -14,10 +14,10 @@ As students with varying learning abilities, we understand the importance of hav
 In addition, to helping students improve their mental and physical wellbeing positively impacting their learning performance, students of varying learning abilities will feel more inclined to seek support and guidance furthering them in their personal, academic, and overall educational goals. Simply put, our cause is dedicated to acknowledging, recognizing, and believing in students of all learning styles/types and helping them thrive wherever they go and whatever they put their minds to. 
 
 ## Challenges we ran into
-### 1) Website
+### * Website
 A challenge we ran into was the JS functionality portion for the contact form on our website. We eventually decided to use the Firebase Realtime Database where when the user inputs any contact information, the data is stored. 
 
-### 2) Game
+### * Game
 It was interesting to build a game using only CSS and JS. The majority of the game heavily relied on JavaScript functionality and it was initially a challenge to place the elements in their designated spot and then find a way to allow the elements of the game to flip (hide) when the student types the tiles to view the actual element. 
 
 
