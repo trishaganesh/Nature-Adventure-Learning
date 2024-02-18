@@ -16,6 +16,7 @@ As students with varying learning abilities, we understand the importance of hav
 ### Website
 A challenge we ran into was the JS functionality portion for the contact form on our website. We eventually decided to use the Firebase Realtime Database where when the user inputs any contact information, the data is stored. 
 
+
 ## Improvements/notes for the future 
 
 ## Authors
