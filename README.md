@@ -1,6 +1,5 @@
 # Nature-Adventure-Learning
 ![Untitled_Artwork](https://github.com/trishaganesh/Nature-Adventure-Learning/assets/43594876/6e13796d-5ebd-4d0e-9b45-1a12e0c434af)
-<img width="333" alt="Screen Shot 2024-02-17 at 5 00 37 PM" src="https://github.com/trishaganesh/Nature-Adventure-Learning/assets/43594876/a9bd2a82-453b-43b7-88cf-917119f557cc">
 
 ## Project Category
 Educational Social Impact
