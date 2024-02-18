@@ -13,7 +13,9 @@ As students with varying learning abilities, we understand the importance of hav
 Nature Adventure Learning is designed to help reach all students regardless of learning style and ability. By connecting and learning with nature, students can feel a positive influence on their mental and physical well-being while being supported by their educators. By gaining information about the benefits of learning in nature and playing our interactive memory game, students can then decide if they'd like Nature Adventure Learning.
 
 ## Impact this project will have
-In addition, to helping students improve their mental and physical wellbeing positively impacting their learning performance, students of varying learning abilities will feel more inclined to seek support and guidance furthering them in their personal, academic, and overall educational goals. Simply put, our cause is dedicated to acknowledging, recognizing, and believing in students of all learning styles/types and helping them thrive wherever they go and whatever they put their minds to. 
+In addition, to helping students improve their mental and physical wellbeing positively impacting their learning performance, students of varying learning abilities will feel more inclined to seek support and guidance furthering them in their personal, academic, and overall educational goals. 
+
+Simply put, our cause is dedicated to acknowledging, recognizing, and believing in students of all learning styles/types and helping them thrive wherever they go and whatever they put their minds to. 
 
 ## Challenges we ran into
 ### 1) Website
