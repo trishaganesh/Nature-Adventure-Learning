@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,1050');
+
+* {
+  /*margin, padding */
+  margin: 0;
+  padding: 0;
+  /*box sizing and styling*/
+  box-sizing: border-box;
+}
+
+/* shake/wiggle an image with CSS */
+@keyframes shake {
+  /*rotate given a certain range*/
+  0% {
+    transform: rotate(0deg);
+  }
+  /*rotate given a certain range*/
+  20% {
+    transform: rotate(10deg);
+  }
+  /*rotate given a certain range*/
+  40% {
+    transform: rotate(-10deg);
+  }
+  /*rotate given a certain range*/
+  60% {
+    transform: rotate(-10deg);
+  }
+  /*rotate given a certain range*/
+  80% {
+    transform: rotate(-10deg);
+  }
+  /*rotate given a certain range*/
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+body {
+  position: relative;
+  font-family: "Sans-Serif", sans-serif;
+}
+
+/*modal-wrapper helps with the formation of a slight black/faded background color and it has a fixed set position */
+.modal__wrapper {
+  /*center the width */
+  width: 100vw;
+  height: 120vh;
+  /*Red-green-blue-alpha (RGBA) model */
+  background: rgba(0, 0.8, 0, 0.8);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11018;
+  justify-content: center;
+  align-items: center;
+}
+
+/*abox/popup window displayed on the current page*/
+.modal {
+  width: 418px;
+  height: 289px;
+  background: #F5F5DC;
+  border-radius: 11px;
+  /*add shadow for the box */
+  box-shadow: 0 4px 4px #000;
+}
+
+/*abox/popup window displayed on the current page*/
+.modal--top {
+  display: flex;
+  height: 49%;
+  /*center content */
+  justify-content: center;
+  /*align items to center */
+  align-items: center;
+  position: relative;
+  z-index: 2345;
+  color: #242323;
+  font-size: 26px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: url("https://ggsc.s3.amazonaws.com/images/uploads/Nature_helps_kids_learn.jpg");
+}
+
+.overlay:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #82faff;
+  opacity: 0.5;
+}
+
+.modal--bottom {
+  display: flex;
+  height: 50%;
+  padding: 6%;
+  color: #585a5b;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.play_button {
+  height: 45px;
+  width: 110px;
+  border: none;
+  color: #009712;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: right;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: #AAFFC4;
+}
+
+/*considerations for modal */
+.play_button:hover {
+  box-shadow: 0 2px 7px rgba(0, 5, 0, 0.5);
+}
+
+/*hold all elements */
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #60F060;
+  background-image: url(https://svgshare.com/i/13Jw.svg);
+  background-size: cover;
+  background-position: 55% 0%;
+  background-repeat: no-repeat;
+  padding-top: 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area {
+  width: 400px;
+  height: 400px;
+  list-style: none;
+  margin: 6% 0;
+}
+
+.head {
+  color: #292727;
+}
+
+/*title css*/
+.tile {
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+  position: relative;
+  /*set styling */
+  display: inline-block;
+}
+
+/*tile style */
+.tile--front,
+.tile--back {
+  padding: 22px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  font-size: 28px;
+  width: 100%;
+  min-height: 100%;
+  text-align: left;
+  /*settings for tiles */
+  backface-visibility: hidden;
+  transform-style: preserved;
+  transition: all 0.5s;
+}
+/*select tiles settings */
+.tile--front {
+  background: #EFEEEE;
+  cursor: pointer;
+}
+
+/*select tiles settings */
+.tile--back {
+  /*rotate tiles */
+  transform: rotateY(-181deg);
+}
+
+/*select tiles settings */
+.tile--selected .tile--back {
+  transform: rotateY(0deg);
+}
+
+/*select tiles settings */
+.tile--selected .tile--front {
+  transform: rotateY(180deg);
+}
+
+/*select tiles settings */
+.tile--selected.tile--matched .tile--back,
+.tile--selected.tile--matched .tile--front {
+  /*check animation  */
+  animation-name: shake;
+  animation-duration: 0.4s;
+}
+/* footer css */
+.footer {
+  width: 81%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footing css */
+.footer > p {
+color: #ffffff;
+  text-shadow: 0px 1.5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*hidden tiles settings */
+.hidden {
+  display: none;
+}
