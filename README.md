@@ -24,9 +24,12 @@ A challenge we ran into was the functionality portion of the contact form on our
 ### 2) Game
 It was interesting to build a game using only CSS and JS. The majority of the game heavily relied on JavaScript functionality and it was initially a challenge to place the elements in their designated spot and then find a way to allow the elements of the game to flip (hide) when the student taps a tile to view an element. 
 
+### Technologies/Tools/Languages 
+HTML, CSS, JS (Babel), Git + Desktop, Github, Firebase, Canva, Procreate 
 
 
 ## Improvements/notes for the future 
+We're hoping to develop our website by adding more features (e.g. allowing the users to get a virtual tour of the outdoor learning space. We hope to develop this into a 2D or 3D game depicting this virtual simulation. In addition, create more games for students with different types of disabilities and/or varying learning abilities. 
 
 ## Authors
 Andrew Le, Isabelle Hu, Jaewon Shim, Trisha Ganesh
